@@ -1,0 +1,55 @@
+/* Header 전체 배경과 패딩 */
+.header {
+  background-color: #9bc9f7;
+  padding: 16px 32px;
+  border-bottom: 1px solid #ffffff;;
+}
+
+/* nav 정렬 (양쪽 정렬) */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 왼쪽 영역 (타이틀 + 메뉴) */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* 타이틀 스타일 */
+.header-left h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 40px;
+}
+
+/* nav 메뉴 리스트 공통 */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* nav 링크 스타일 */
+.nav-list li a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  color: #ffffff; /* 기본 글자색 */
+}
+
+.nav-list li a:hover {
+  color: #007bff; /* 파란색 강조 효과 */
+}
+
+/* 로그인/회원가입 메뉴 */
+#auth-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
